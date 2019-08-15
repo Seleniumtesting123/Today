@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test thread-count="5" verbose="2" name="Default test">
+  
+  <parameter name="SearchByName" value="Rahil"></parameter>
+  <parameter name="SearchByEmailId" value="mohdrahil2989@gmail.com"></parameter>
+  <parameter name="LastName" value="Mohammad"></parameter>
+    <classes>
+      <class name="Simple.Param"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            

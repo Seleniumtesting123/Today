@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+      <class name="Simple.Annot">
+        <test-method status="PASS" signature="method()[pri:0, instance:Simple.Annot@120ebad]" name="method" is-config="true" duration-ms="9" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="method2()[pri:1, instance:Simple.Annot@120ebad]" name="method2" duration-ms="5" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:Simple.Annot@120ebad]" name="method4" is-config="true" duration-ms="1" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method3()[pri:2, instance:Simple.Annot@120ebad]" name="method3" duration-ms="2" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:Simple.Annot@120ebad]" name="method" is-config="true" duration-ms="0" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:Simple.Annot@120ebad]" name="method4" is-config="true" duration-ms="1" started-at="2019-05-17T07:21:45Z" finished-at="2019-05-17T07:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- Simple.Annot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

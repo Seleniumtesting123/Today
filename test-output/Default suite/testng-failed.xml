@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <parameter name="SearchByName" value="Rahil"/>
+    <parameter name="LastName" value="Mohammad"/>
+    <parameter name="SearchByEmailId" value="mohdrahil2989@gmail.com"/>
+    <classes>
+      <class name="Simple.Param">
+        <methods>
+          <include name="SearchByName" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Simple.Param -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
